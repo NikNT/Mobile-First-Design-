@@ -189,3 +189,32 @@ nav ul li a{
     grid-gap: 2rem;
 }
 
+section{
+    padding: 2rem 0;
+}
+
+.apartmentsMeta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apartmentsMeta span{
+    color: #596172;
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+}
+
+.apartmentsCard img{
+    width: 100%;
+}
+
+.apartmentsTitle{
+    margin-top: 1rem;
+}
+
+.apartmentsTitle a{
+    color: #2B313D; 
+    text-decoration: none;
+    line-height: 1.6;
+}
