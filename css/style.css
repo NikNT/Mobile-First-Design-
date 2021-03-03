@@ -218,3 +218,93 @@ section{
     text-decoration: none;
     line-height: 1.6;
 }
+
+.heroImageBlock{
+    display: none;
+}
+
+/* Media Queries */
+
+@media(min-width: 800px){
+
+nav .hamburger{
+    display: none;
+}
+
+nav ul.navList{
+    width: auto;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    margin-top: 0;
+    padding: 0; 
+}
+
+nav ul.navList li{
+    padding-bottom: 0;
+    margin-left: 1.8rem;
+}
+
+nav{
+    flex-wrap: nowrap;
+}
+
+.heroTextBlock h1{
+    width: 60%;
+}
+
+}
+
+@media(min-width: 992px){
+
+    .hero{
+        background: #fff;
+        min-height: auto;
+    }
+
+    .heroTextBlock{
+        width: 45%;
+        margin-left: 5%;
+    } 
+
+   .heroImageBlock{
+        display: block;
+        width: 55%;
+        margin-left: 4rem;
+    } 
+
+    .heroImageBlock img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .heroTextBlock h1{
+        color: #2B313D;
+        font-weight: 400;
+        width: 100%;
+        
+    }
+
+    .searchBlock.searchBlock.searchBlockHero input{
+        color: #949FB7;
+    }
+
+    .searchBlock.searchBlock.searchBlockHero ::placeholder{
+        color: #949FB7;
+    }
+
+    .apartmentsListWrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media(min-width: 1192px){
+    html{
+        font-size: 20px;
+    }
+
+    .apartmentsListWrapper{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
