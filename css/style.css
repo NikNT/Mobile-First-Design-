@@ -12,7 +12,7 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
-    height: 4000px;
+
 }
 
 .container {
@@ -160,6 +160,10 @@ nav ul li a{
     background: #F6F6F7;    
 }
 
+.apartments img{
+    border-radius: 10%;
+}
+
 .apartments .sectionHeading{
     display: flex; 
     align-items: center;
@@ -222,6 +226,121 @@ section{
 .heroImageBlock{
     display: none;
 }
+
+.mainFooter{
+    text-align: center; 
+}
+
+.footerText{
+    margin: 1rem 0 1rem 0; 
+}
+
+.mainFooter .footerText h1{
+
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.mainFooter input{
+    width: 50%;
+    margin-top: 1rem;
+    color: #596172; 
+    height: 2.2rem; 
+
+    border: 1px solid #D9DDE7;
+    border-radius: 4px;
+}
+
+.mainFooter input::placeholder{
+  text-align: center;
+  margin: 1rem;
+  font-size: 140%;
+}
+
+.mainFooter .btn{
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem; 
+    height: 2.5rem;
+    margin-top: 0.5rem; 
+}
+
+.mainFooter .btnSuccess{
+    background: #25DF8F;
+}
+
+.endText{
+    margin: 1rem 0 1rem 0;
+}
+
+.mainFooter .endText{
+    font-weight: 400;
+    font-size: 60%;
+}
+
+.mainFooter .socialMediaFooter {
+  
+    margin: 1rem 0 1rem 0;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .endText{
+       background-image: linear-gradient(to right, rgba(0,255,0,0), rgba(0,255,0,1));        
+      height: 40px;
+  }
+
+  .endText p{
+      padding: 10px 0 10px 0;
+  }
 
 /* Media Queries */
 
@@ -296,6 +415,7 @@ nav{
     .apartmentsListWrapper{
         grid-template-columns: repeat(3, 1fr);
     }
+
 
 }
 
